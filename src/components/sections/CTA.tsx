@@ -21,7 +21,7 @@ const CTA = () => {
               Join thousands of food enthusiasts who have discovered the joy of effortless cooking with Sahayog.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="glass-card bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover-scale flex items-center justify-center">
+              <button className="glass-card bg-gray-900 text-black px-8 py-3 rounded-full font-medium hover-scale flex items-center justify-center">
                 Get Started Now <ArrowRight className="ml-2 w-4 h-4" />
               </button>
               <button className="glass-card px-8 py-3 rounded-full font-medium hover-scale">

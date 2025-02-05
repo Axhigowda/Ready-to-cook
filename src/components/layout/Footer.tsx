@@ -13,10 +13,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">How It Works</a></li>
-              <li><a href="#" className="hover:text-white">FAQs</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
+              <li className='hover:text-white'>About Us</li>
+              <li className='hover:text-white'>How It Works</li>
+              <li className='hover:text-white'>FAQs</li>
+              <li className='hover:text-white'>Contact</li>
             </ul>
           </div>
           <div>
@@ -24,15 +24,15 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>support@sahayog.com</li>
               <li>+91 98765 43210</li>
-              <li>Mumbai, Maharashtra</li>
+              <li>Bengaluru, Karnataka</li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-white"><Instagram className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-white"><Facebook className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-white"><Youtube className="w-5 h-5" /></a>
+              <Instagram className="w-5 h-5 hover:text-white" />
+              <Facebook className="w-5 h-5 hover:text-white" />
+              <Youtube className="w-5 h-5 hover:text-white" />
             </div>
           </div>
         </div>

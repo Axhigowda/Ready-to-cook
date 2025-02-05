@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingBag, Plus, Star } from 'lucide-react';
-import { Link } from 'react-router-dom';
+
 
 const MealKits = () => {
   const mealKits = [
@@ -41,9 +41,9 @@ const MealKits = () => {
             <h2 className="text-4xl font-bold mb-4">Explore Our Meal Kits</h2>
             <p className="text-gray-600">Curated recipes with premium ingredients</p>
           </div>
-          <Link to="/all-meals" className="btn-secondary flex items-center gap-2">
+          <div className="btn-secondary flex items-center gap-2">
             View All <Plus className="w-5 h-5" />
-          </Link>
+          </div>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
@@ -68,9 +68,9 @@ const MealKits = () => {
                     <p className="text-2xl font-bold text-green-600">{kit.price}</p>
                     <p className="text-sm text-gray-500">Serves {kit.serves}</p>
                   </div>
-                  <Link to={`/meal/${kit.id}`} className="btn-primary flex items-center gap-2">
+                  <div className="btn-primary flex items-center gap-2">
                     Order Now <ShoppingBag className="w-4 h-4" />
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>

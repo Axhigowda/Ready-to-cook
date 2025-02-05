@@ -18,10 +18,7 @@ const Hero = () => {
               <Link to="/get-started" className="btn-primary flex items-center gap-2">
                 Start Cooking <ArrowRight className="w-5 h-5" />
               </Link>
-              <button 
-                className="btn-secondary flex items-center gap-2"
-                onClick={() => document.getElementById('video-modal')?.showModal()}
-              >
+              <button className="btn-secondary flex items-center gap-2"              >
                 Watch Demo <PlayCircle className="w-5 h-5" />
               </button>
             </div>
